@@ -1,0 +1,83 @@
+p {
+    font-family: "Sofia", sans-serif;
+  }
+button{
+height: 50px;
+width: 150px;
+background-color: purple;
+color: white;
+border: 1px solid black;
+border-radius: 5px;
+}
+button:hover{
+background-color: aqua;
+
+}
+.box{
+
+    height: 300px;
+    width: 300px;
+    background-color: rgb(213, 198, 37);
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.box:hover{
+ 
+width: 500px;
+transition: width 2s;
+}
+.box1{
+
+    height: 300px;
+    width: 300px;
+    background-color: rgb(37, 213, 55);
+    border: 2px solid rgb(179, 26, 26);
+    border-radius: 50%;
+}
+.box2{
+
+    height: 300px;
+    width: 300px;
+    background-color: rgb(37, 140, 213);
+    border: 2px solid rgb(88, 180, 18);
+    border-radius: 10px;
+
+
+}
+@media only screen and ( max-width: 856px ) and (min-width:400px){
+.box2{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(18, 131, 149);
+    border: 2px solid rgb(26, 179, 92);
+    border-radius: 50%;
+animation-name: example;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+
+}
+@keyframes example{
+100%{
+
+    transform: translate(500px);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
